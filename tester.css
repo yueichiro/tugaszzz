@@ -1,0 +1,59 @@
+body{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    height: 300px;
+    background-color: blue;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+.navbar{
+    padding: 15px;
+    margin-bottom: 35px;
+    text-align: end;
+}
+.navbar li{
+    display: inline;
+    margin: 0 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: red;
+}
+
+.sidebar{
+    font-weight: 500;
+    padding: 20px;
+    width: 20%;
+    background-color: gainsboro;
+}
+
+.sidebar a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.sidebar a:hover{
+    color: red;
+}
+
+regist{
+    display: flex;
+}
+
+footer{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
